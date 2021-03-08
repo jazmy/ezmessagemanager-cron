@@ -22,20 +22,26 @@ ORIGIN means the URL to frontend server
 STRAPI_APP_SERVER_URL means the URL to backend server.
 
 ***Install Dependencies***
+
     yarn
     npm install pm2 -g
     
 ***Run Cron Service***
-    pm2 start index.js
-    pm2 list
-    pm2 logs
+ 
+
+       pm2 start index.js
+        pm2 list
+        pm2 logs
     
 ***Stop cron service***
-    pm2 delete all
-    pm2 kill
+
+pm2 delete all
+pm2 kill
     
 ***Refresh cron service***
+
     pm2 restart all
     
 **kill the port when done testing***
-npx kill-port 4000
+
+    npx kill-port 4000
