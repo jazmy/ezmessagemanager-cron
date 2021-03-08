@@ -29,14 +29,14 @@ STRAPI_APP_SERVER_URL means the URL to backend server.
 ***Run Cron Service***
  
 
-       pm2 start index.js
-        pm2 list
-        pm2 logs
+    pm2 start index.js
+    pm2 list
+    pm2 logs
     
 ***Stop cron service***
 
-pm2 delete all
-pm2 kill
+    pm2 delete all
+    pm2 kill
     
 ***Refresh cron service***
 
